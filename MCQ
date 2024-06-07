@@ -188,8 +188,241 @@ ANS: BufferedReader
 
 
 
+CN_4.1> Which of the following are arithmetic operators in java?
+ANS: All the above
 
+CN_4.2> Which is the arithmetic operator in java that gives the remainder of division?
+ANS: %
 
+CN_4.3> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int a = 10;
+        int b = 5;
+        int c = a + b * 10;
+        System.out.println(c);
+    }
+}
+ANS: 60
 
+CN_4.3> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
 
+        int x = 7--2;
+
+        System.out.println(x);
+    }
+}
+ANS: Compilation error
+
+CN_4.4> How many operand unary operators take?
+ANS: 1
+
+CN_4.5> How many types of decrement operators in java?
+ANS: 2
+
+CN_4.6> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+
+        int x = 5;
+        int y  = 6;
+
+        if(x++ == --y) {
+            System.out.println("Coding Ninjas");
+        }
+        else {
+            System.out.println("Ninjas");
+        }
+    }
+}
+ANS: Coding Ninjas
+
+CN_4.7> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int x = 6;
+        int y  = 5;
+        if(++y == x--) {
+            System.out.println("Coding Ninjas");
+        }
+        else {
+            System.out.println("Ninjas");
+        }
+    }
+}
+ANS: Coding Ninjas
+
+CN_4.8> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int a = 10, b = 1;
+        System.out.println(!(a < b));
+    }
+}
+ANS: true
+
+CN_4.9> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int a = 7, b = 18, c = 45;
+        a -= 4;
+        b *= 2;
+        c /= 9;
+        System.out.println(a + " " + b + " " + c);
+    }
+}
+ANS: 3 36 5
+
+CN_4.10> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+
+        int num = 18;
+        num %= 2;
+        System.out.println(num);
+    }
+}
+ANS: 0
+
+CN_4.11> How many types of assignment operators in java?
+ANS: 5
+
+CN_4.12> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int num = 18;
+        num *= 2;
+        System.out.println(num);
+    }
+}
+ANS: 36
+
+CN_4.13> The result of a relational operator is always?
+ANS: boolean
+
+CN_4.14> Minimum number of operands are required to use relational operators?
+ANS: 2
+
+CN_4.15> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        char ch = 'a';
+        if(ch > 70) {
+            System.out.println("Coding Ninjas");
+        }
+        else {
+            System.out.println("Ninjas");
+        }
+    }
+}
+ANS: Coding Ninjas
+
+CN_4.15> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int a = 10;
+        int b = 20;
+
+        if(a != b) {
+            System.out.println("Ninjas");
+        }
+
+        else {
+            System.out.println("Coding Ninjas");
+        }
+    }
+}
+ANS: Ninjas
+
+CN_4.16> How many logical operators are in java?
+ANS: 3
+
+CN_4.17> What is the output of the following code?
+public class Solution {
+    public static void main(String arg[]) {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+
+        System.out.println((b > a) && (c > b));  
+    }
+}
+ANS: true
+
+CN_4.18> What is the output of the following code?
+public class Solution {
+    public static void main(String arg[]) {
+        int a = 10;
+        int b = 20;
+        int c = 30;
+
+        System.out.println((b > a) || (c < b));  
+    }
+}
+ANS:true
+
+CN_4.19> What is the output of the following code?
+public class Solution {
+    public static void main(String arg[]) {
+        int a = 6;
+        int b = 7;
+        System.out.println("a | b = " + (a | b));
+    }
+}
+ANS: a | b = 7
+
+CN_4.20> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+        int a = 6;
+
+        System.out.println(" ~a = " + ~a);
+    }
+}
+ANS: -7
+
+CN_4.21> What is the output of the following code?
+
+public class Solution {
+    public static void main(String arg[]) {
+        int a = 8;
+        System.out.println("a >> 2 = " + (a >> 2));
+    }
+}
+ANS: a >> 2 = 2
+
+CN_4.22> Which of the following operators is return 1 if the corresponding bits are different?
+ANS: Bitwise Exclusive Or operator
+
+JCN_4.23> ava ternary operator sometimes called?
+ANS: Conditional operator
+
+CN_4.24> Which operator takes three operands?
+ANS: Ternary operator
+
+CN_4.25> What is the output of the following code?
+public class Solution {
+    public static void main(String argo[]) {
+        int a = 50;
+        int b = 100;
+        int c = (a > b) ? a : b;
+
+        System.out.println(c);
+    }
+}     
+ANS: 100
+
+CN_4.26> We can use ternary operator in place of?
+ANS: Both
+
+CN_4.27> Instanceof operator is used to compare?
+ANS: Object of a specified type
+
+CN_4.28> What is returned by instanceof operator?
+ANS: boolean value
+
+CN_4.29> We can use instanceof operator to check if an object is
+ANS: All the above
 

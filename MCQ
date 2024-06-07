@@ -1,0 +1,195 @@
+CN_1.1> What is the primary objective of Java ME (Micro Edition) in the Java programming language?
+ANS: To work on mobiles, wireless devices, and small devices
+
+CN_1.2> Which edition of Java is used for the development of web services, networking, server-side scripting, and various web-based applications?
+ANS: Java Platform, Enterprise Edition (Java EE)
+
+CN_1.3> What does JRE stand for?
+ANS: Java Runtime Environment
+
+CN_1.4> What does JDK stand for?
+ANS: Java Development Kit
+
+CN_1.5> Who is responsible for executing java programs line by line?
+ANS: JVM
+
+CN_1.6> Which of the following statements is correct?
+ANS: JRE (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application)onto your machine.
+
+CN_1.7> What is the extension of the java code files?
+ANS: .java
+
+CN_1.8> What is the extension of the compiled java classes?
+ANS: .class
+
+CN_1.9> Which of the following commands is used to compile java code?
+ANS: javac file_Name.java
+
+CN_1.10> Which of the following commands is used to run java code?
+ANS: java file_Name
+
+CN_1.11> Why is the java main() method public?
+ANS: Because JVM calls the main() outside the class.
+
+CN_1.12> How many types of comments are available in java?
+ANS: 3
+
+CN_1.13> Which type of comments are used to comment multiple lines of code?
+ANS: Multi line comment
+
+CN_1.14> Which type of comments is used to comment on single lines of code?
+ANS: Single line comment
+
+
+
+CN_2.1> Which of the following is invalid variable naming convention?
+ANS: int 1x = 10;
+
+CN_2.2> Which of the following is a valid variable naming convention?
+ANS: int x = 10;
+
+CN_2.3> Which data type stores the largest decimal number?
+ANS: double
+
+CN_2.4> What is the default value of int data type?
+ANS: 0
+
+CN_2.5> What is the default value of boolean?
+ANS: false
+
+CN_2.6> Which data type is considered as a non-primitive data type?
+ANS: class
+
+CN_2.7> Can we access the variables outside the method body which are defined inside the method body?
+ANS: No
+
+CN_2.8> What is the output of the following code?
+public class Solution {
+    public void display() {
+        int x = 10;
+    }
+
+    public static void main(String args[]) {
+        System.out.println(x);
+    }
+}
+ANS: Compile time error
+
+CN_2.9> What is the output of the following code?
+public class Solution {
+    int x = 10; 
+    public static void main(String args[]) {
+        Solution obj = new Solution();
+        System.out.println(obj.x);
+    }
+}
+ANS: 10
+
+CN_2.10> What is the output of the following code?
+public class Solution {
+
+    public static void main(String args[]) {
+
+        int x;
+        x = 10;
+        {
+            int y = 20;
+            System.out.print(x + " " + y);
+        }
+
+        System.out.print(x + " " + y);
+    }
+}
+ANS: Compile time error
+
+CN_2.11> Which of the following variables is a local variable?
+public class Example {
+    int num = 10;
+    float b = 10.9f;
+
+    public void method() {
+        int x = 20;
+        int y = 30;
+    }
+}
+ANS: x and y both
+
+CN_2.12> Which of the following variables is a class level variable?
+public class Example {
+    int num = 10;
+    float b = 10.9f;
+
+    public void method() {
+        int x = 20;
+        int y = 30;
+    }
+}
+ANS: num and b both
+
+CN_2.13> What is the output of the following code?
+public class Solution {
+    static int x = 10;
+
+    public static void main(String args[]) {
+        System.out.println(x);
+    } 
+}
+ANS: 10
+
+CN_2.14> Which of the following Type Casting is available in Java?
+ANS: Both a and b
+
+CN_2.15> Which of the following Type Casting is responsible for loss of data?
+ANS: Narrowing Type Casting
+
+CN_2.16> What is the output of the following java code?
+public class Example {
+    public static void main(String args[]) {
+        char ch = 'a';
+        int num = 10;
+        ch = num;
+        System.out.println(ch);
+    }
+}
+ANS: compile time error
+
+CN_2.17> Is type casting possible from boolean to char?
+ANS: No
+
+CN_2.18> Which of the following is true about overflow?
+ANS: Overflow in java happens when we assign a value to a variable which is more than its range
+
+CN_2.19> What is the output of the following code?
+public class Solution {
+    public static void main(String args[]) {
+
+        int x = -2147483648;
+        System.out.println(x - 1);
+    }
+}
+ANS: 2147483647
+
+CN_2.20> In case of overflow and underflow, does the Java compiler throw any error?
+ANS: False
+
+
+
+CN_3.1> Which of the following Scanner class methods is used to read String from the user?
+ANS: nextLine()
+
+CN_3.2> What is the correct syntax to declare the Scanner class object?
+ANS: Scanner sc = new Scanner(System.in);
+
+CN_3.3> Which of the following methods is not present in the Scanner class?
+ANS: nextString();
+
+CN_3.4> Which of the following classes is used to read the stream of the character?
+ANS: BufferedReader
+
+
+
+
+
+
+
+

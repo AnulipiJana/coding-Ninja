@@ -22,3 +22,37 @@ ANS: Names
 
 2.4> Which of the following is a pure object-oriented programming language?
 ANS: smallTalk
+
+3.1> If programmer have defined parameterized constructor only, then ____________
+ANS: The default constructor will not be created by the compiler implicitly
+
+3.2> Why do we use constructor overloading?
+ANS: To initialize the object in different ways
+
+3.3> Which among the following best describes the destructor?
+ANS: A function which is called just before the objects are destroyed
+
+3.4> When is the constructor called for an object?
+ANS: As soon as the object is created
+
+3.5> Which constructor will be called from the object obj2 in the following program?
+class A{
+ int i;
+ A(){  
+     i=0;  
+ }
+ A(int x){  
+    i=x+1;  
+}
+ A(int y, int x){  
+    i=x+y;  
+}
+};
+class obj1=new A(10);
+class obj2=new A(10,20);
+class boj3=new A();
+ANS: A(int y, int x)
+
+
+
+

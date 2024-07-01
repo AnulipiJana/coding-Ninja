@@ -53,6 +53,23 @@ class obj2=new A(10,20);
 class boj3=new A();
 ANS: A(int y, int x)
 
+4.1> We can use the static member functions and static data member
+ANS: Even if the class object is not created
 
+4.2> Final keyword in java is used with
+ANS: All of the above
 
+4.3> Choose the correct statement. Restriction on static methods are: I. They can only call other static methods. II. They must only access static data. III. They cannot refer this or super in any way.
+ANS; I, II, and III
 
+4.4> What would be the behavior if this() and super() were used in a method?
+ANS: compile-time error
+
+4.5> The static member functions ____________________
+ANS: Can be called using class name
+
+4.6> identify the modifier which can not be used for the constructor
+ANS: static
+
+4.7> We can return this from a method as return type
+ANS: True
